@@ -201,6 +201,8 @@ try
         Write-Log "run setup script $run_cmd"
         Invoke-Expression $run_cmd
     }
+
+    PREPROVISION_EXTENSION
 }
 catch
 {
